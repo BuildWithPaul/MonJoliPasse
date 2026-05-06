@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Joli Passe",
+    "slug": "JoliPasse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#18181b"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kalori.monjolipasse"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.kalori.monjolipasse",
+      "permissions": [ "CAMERA", "READ_EXTERNAL_STORAGE", "CAMERA_ROLL" ],
+      "versionCode": 5
+    }
+  }
+}
